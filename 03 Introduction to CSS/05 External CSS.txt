@@ -1,0 +1,24 @@
+External stylesheet file is connected to several other webpages by <link rel= " " href = " " >
+Earlier we added internal css to our index.html page
+
+Here to make changes across all webpages
+
+1) Make a CSS Folder in project
+
+2) Create a css file css/styles.css  //this file is called stylesheet
+
+Paste your css code without the style tag here
+a) styles.css
+body {
+background-color: #EAF6F6		//Backgroundcolor property
+height: 2px;
+width: 30%
+}
+
+b) index.html
+/* link */
+<link rel ="stylesheet href="/css/master.css"">  /* Add this to contact me page also*
+</head>
+
+a) /css/master.css means root of file
+b) css/master.css means same level of css folder

@@ -1,0 +1,14 @@
+We will inject css code in same line of body element using style attribute
+We start with body tag since most code is in that
+implement a css style and apply to all instances of a particular HTML element
+
+1) Change backgound of webpage
+<body style="background-color: blue "> 
+
+2_ Fomd color palette from color hunt
+	Copy hex value with #
+	//Pigments plugin will highlight color
+
+    which color can we use by name, which do we need hex code
+	Goto MDN -> color keywords
+3)  <body style = "background-color: #EAF6F6;">

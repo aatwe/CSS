@@ -1,0 +1,17 @@
+toolset to style was limited 
+solution was tags: for ex font, centre, 
+	      attributes
+
+To change layout: had to use tables 
+
+CSS: only styles the website
+
+
+3 ways ot add CSS:
+1) Inline  		using style attribute inside the element		//ex <body style="background-color: blue ">
+2) Internal 	using style element, add style element in head			//ex add 
+<!DOCTYPE html>
+<html>
+<head><style> body { background-color: linen;} </style></head>
+
+3) External	using link element inside head,  rel = name , href = cssfilename

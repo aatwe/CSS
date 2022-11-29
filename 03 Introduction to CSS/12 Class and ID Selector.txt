@@ -1,0 +1,103 @@
+Q) what if 2 selectors with same name, different property values.? give each element -> separate class -> use dot notation to select apt class
+-------------------------------------------------------------------------
+Helps to identify which particular selector we are targetting
+//Can target particular selector
+
+suppose we do
+<img src= "1" alt="bacon">
+
+<img src= "2" alt="bacon">
+
+img {
+ background-color: red;
+}
+
+//Applies toeverysingle image
+----------------------------------------------------------------------------
+Solution?
+Class
+
+<img class=" " src=" 1" alt="bacon">
+//Class attribute allows to differntiate bw html elements
+<img class="bacon " src=" 1" alt="bacon">
+<img class="brocolli" src=" 1" alt="bacon">
+
+___________________________________________________________________________--
+How to target a class? Dot
+1) earlier 
+img {
+ background-color: red;
+}
+
+2) Now : use dot notation with class value
+.bacon {
+  background-color: green;
+}
+
+.brocoli {
+  background-color: red;
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++
+//Both classes and id get priority
+TEST
+
+Given:
+<h1 id="heading">I Love Bacon</h1>
+
+
+//Specify selector:
+Using #
+1) h1{color : red;} 
+
+2) #heading {
+   color: blue; 
+}
+
+
+//Blue of #heading id style will override h1 red style
+
+//Check in developer tools:
+there will be 2 styles for h1
+and 1 style will be crossed out i.e h1 red
+i.e ID > normal
+++++++++++++++++++++++++++++++++++++
+Conflict ex
+
+<style type = "text/css"
+  .style1 {
+	font-weight: bold;
+}
+  .style2 {
+	color : orange
+}
+</style>
+
+<p> Normal Text </p>
+<p id ="style1" class="style2"> Orange Bold Text</p>
+
+Conclusion: ID  > Class in CSS cascade
+++++++++++++++++++++++++++++++++++++
+Summary:
+1) class -> use dot notation
+	ex <img class="bacon " src=" 1" alt="bacon">
+	.bacon {
+	  background-color: green;
+	}
+2)
+id     -> use # notation
+	ex <h1 id="heading">I Love Bacon</h1>
+	 #heading {
+ 	  color: blue; 
+	}
+
+
+-> Priority ID > Class > Normal element
+
++++++++++++++++++++++++++++++++++++
+Basic Rule:
+ID : use for single elements that appear once like header, footer, menu
+Class : use for elements that appear multiple times paragraph,link etc
+
+++++++++++++++++++++++++++++++++++++
+

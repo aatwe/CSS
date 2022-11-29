@@ -1,0 +1,11 @@
+What if all3 CSS are affecting same property of same element
+
+
+What is prioirty? Inline element CSS > Internal CSS > External CSS
+
+
+Means we can apply global CSS rule to all web pages
+And apply speciific rule on individual web pages
+
+
+ADVICE: Implement all style in external CSS

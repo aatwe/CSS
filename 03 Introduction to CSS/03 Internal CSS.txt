@@ -1,0 +1,70 @@
+CSS = boxes
+
+Q) Why <style> implement CSS code across entire web page instead of body element
+
+Earlier we wrote	
+implement a css style and apply to all instances of a particular HTML element
+How to implement CSS code across entire web page instead of body element
+No need for copying style attribute whenever wanting to change an element
+
+
+1) We will add a style tag
+
+<html>
+<head>
+<meta>
+<title>  </title>
+
+<style> /*CSS Code*/   </style>
+
+2) Specify name of elemen that we want to change and  Write CSS code (property) inside curly braces {}
+
+<style>
+body {
+background-color: #EAF6F6		//Backgroundcolor property
+}
+</style>
+
+
+4) Try changing the <hr></hr> tag color
+
+<hr>
+  background-color: white
+</hr>
+
+It wont change?
+Why? Default CSS added by our browser
+All elements have default CSS applied by browser
+
+Google default css in hr
+hr 	display:block
+	margin-top : 0.5 cm;
+	margin-bottom : 0.5 cm;
+	margin-left : auto;
+	margin-right : auto;
+	border-style: inset;	//makes element look embedded in it
+	border-width: ipx;
+	
+How to Override default browser value?
+Specifying new value using CSS
+//Set border-syle: none
+
+Nothing is visible
+
+5) Pretty much everything in css is boxes
+Can view using Pesticide tool
+add this extension
+Pesticide extension -> allow access to file URLs
+//Can use it on  local website
+
+Basically hr element had a border by default
+when we set style to none , now our rectangle has no/0 size
+
+Just add a height property also
+//box will have a a height of 2px
+
+<style>
+body {
+background-color: #EAF6F6		//Backgroundcolor property
+height: 2px;
+}

@@ -1,0 +1,8 @@
+1) Find who to change
+2) Use as selector in external styles .css
+
+
+
+How to find what properties
+Webdocs : CSS Reference : of keywords/properties
+these keywords / properties are whats

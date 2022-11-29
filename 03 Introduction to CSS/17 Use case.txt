@@ -1,0 +1,6 @@
+Classes used almost everywhere
+Tags used broadly
+IDs used sparingly
+
+
+//linter suggests against id but sometimes useful

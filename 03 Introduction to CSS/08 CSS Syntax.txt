@@ -1,0 +1,48 @@
+What is a selector? At the beginning of CSS Rule
+		Inside selector there is CSS Rule
+		What rule does? Change appearence of some property and gives new value
+		Rule ends with semicolon
+
+selector{property : value; }
+Selector = Whoto change? = h1 or paragraph or image etc.
+Property = WHat property to change about who? = Bacckground color or text color or etc.
+Value = 	  How to change? = Blue/Red etc
+
+Ex1 ) Apply Rule to 1 selector
+______________________________________________________________
+h1{color : red;}	//h1 property's color will be changed
+______________________________________________________________
+selector = h1
+property = color
+value = red
+--------------------------------------------------------------
+
+//change h1 s color property to red
+
+
+1) Add external Stylesheet link
+ External folder Style -> style.css
+in index .html add
+<link rel="stylesheet" href="css/style.css">
+
+Try changing body 
+body {
+   background-color: red;
+}
+h1 {
+  color: red; font-size: 200px;	//Apply multiple rules to 1 selector 
+}
+______________________________________________________________________
+Ex2) Apply Rules to 2 selectors  //Alphabetically
+
+//Here we are applying rules to 2 selectors body and h1
+//Also applied multiple rules to 1 selector
+
+How to write many rules to 1 selector systematically? Alphabetically one below each in selector
+
+h1 {
+  color: red;
+  font-size: 200px; 
+}
+//The linter will advice that best way is to have rules alphabetically
+Atom -> Settings -> Linter

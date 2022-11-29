@@ -1,0 +1,26 @@
+Objective: Change CSS based on state of html element . 
+html elements can have different states
+Hover a piece of text/image : state changes 
+How to change CSS based on state? Hovering/ Not Hovering over by using Pseudo classes
+By using pseudo class : hover
+
+
+How to write pseudo class? Colon
+Ex
+:hover
+
+
+Use Case:
+
+a:hover {		//Select hover state of any html element to affect its style
+  color: orange;
+}
+
+
+_________________________________________________________________________________________
+//Lets do for image tag
+img:hover {
+  background-color: gold;
+}
+
+//When we hover over a image, it turns gold

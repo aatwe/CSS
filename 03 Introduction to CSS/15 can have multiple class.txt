@@ -1,0 +1,22 @@
+<img class= "bacon">
+
+<img class= "broccoli circular" src=" ">
+
+
+//Stylesheet
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+   background-color: red;
+
+}
+
+.circular {
+   border-radius: 100%
+}
+
+//By adding circular class to brocolli
+We applied Circular radius to brocolli class along side brocolli class styles 
+But we didnt apply it to bacon Class becuase we didnt add circular class to it

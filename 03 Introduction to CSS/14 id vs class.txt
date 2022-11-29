@@ -1,0 +1,20 @@
+1) Can have singe instance of 1 particular id in a single page
+ID is used to identify unique elements on page for ex navigation bar
+
+
+<h1 id="heading">I love bacon </h1>
+<p id="heading">bacon, bacon</p>
+
+//Both cant have same id heading
+
+
+
+2) Can have multiple instance of particular class
+Class can be used to group all related elements/ All going to behave/ have similar style
+
+<p class= "bacon">bacon,bacon,</p>
+<p class= "bacon">bacon,bacon,</p>
+
+
+
+3) both id and class are more selective than tags

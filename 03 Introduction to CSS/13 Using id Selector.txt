@@ -1,0 +1,27 @@
+//Both classes and id get priority
+
+<img class="bacon " src=" 1" alt="bacon">
+<h1 id="heading">I Love Bacon</h1>
+
+
+//Specify selector:
+Using #
+1) h1{color : red;} 
+
+2) #heading {
+   color: blue; 
+}
+
+
+//Blue of #heading id style will override h1 red style
+++++++++++++++++++++++++++++++++++++
+Summary:
+class -> use dot notation
+ex
+
+id     -> use # notation
+
+
+//Check in developer tools:
+there will be 2 styles for h1
+and 1 style will be crossed out i.e h1 red

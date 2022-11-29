@@ -1,0 +1,5 @@
+linter wont be able to differentiate the what and the how
+
+Linter gives error: expected a colon
+
+Not  a valid CSS rule without a semicolon

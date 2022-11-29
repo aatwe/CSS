@@ -1,0 +1,28 @@
+Eerything in CSS is pretty much boxes
+and can change the property of boxes using css code
+
+1) How to assign dynamic size as per screen?
+Use percentage
+
+<style>
+body {
+background-color: #EAF6F6		//Backgroundcolor property
+height: 2px;
+width: 30%
+}
+</style>
+
+2) Assign multiple attribute values to a property
+
+Go to MDN -> css element
+for ex for border-style
+can test color/width/radius and see
+
+hr {
+  border-style: none;			 //1 value //all 4 sides
+  border-top-style: dotted none none;	//2 value// top+bottom, left+ right
+ 
+}
+
+3) How to carry these css changes to other web pages of my website
+External CSS 

@@ -1,0 +1,19 @@
+Why Debug?
+A developer writes code that has flaws typos etc
+Need to diagnose these bugs
+
+Something not working as it is supposed to: find cause and fix
+
+//How to check what effects without affecting code?
+Ticking/Unticking CSS rulesin style.css Debugger developer mode
+This changes how webpage is visible but does not change code
+
+
+Q) how to debug
+1) Specify problem clearly
+2) isolate source code of problem
+3) Using debugger -> take snapshot of code at time of error, note down all values and state at that time
+
+4) use values -> locate cause -> trace program step by step(what is executing)
+
+5)  check if bug resolved, check if new bug created or not
