@@ -1,0 +1,6 @@
+Select html code
+-> style section -> edit
+
+
+HOV
+In the Styles tab, click :hov.

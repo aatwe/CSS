@@ -1,0 +1,29 @@
+//Float is abused property in CSS
+It has some corner cases and recommended to use only when really necessary
+Dont use it positioning
+Position by relative/absolute/margin/padding for layout and positioning of website
+Leave float only for wrapping purposes
+
+Floating: Text wraps around image to display both in same line
+	It may look little too wrapped, keep 30px space
+
+Float : left if you want image on left
+Float : right if you want image on right
+.sap{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.WebD{
+  width: 25%;
+  height="160";
+  style="border-radius: 50%" ;
+  float: left;
+  margin-right: 30px;
+}
+.guitar{
+  width: 25%;
+   height="130" style="border-radius: 50%">
+   float: left;
+  margin-right: 30px;
+}

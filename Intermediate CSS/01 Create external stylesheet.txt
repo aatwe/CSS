@@ -1,0 +1,12 @@
+Q1) How to create external stylesheet?
+
+<<link rel="stylesheet" type="text/css" href="/CSS-My Site/css/style.css">		//type = media type of linked document
+									//rel = relationship
+Q2) How to locate?
+Can locate after same heirarchial level of index.html
+
+//rel = relationship
+type = text/css //optional
+
+
+Open website by opening index.html full path in browser

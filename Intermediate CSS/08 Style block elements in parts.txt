@@ -1,0 +1,163 @@
+ 2 Types of elements in html : inline and block-level
+
+1) Inline							//show next to each other
+	for ex span,Images <img>,Anchors <a>
+	in below : div : block level element
+		 span : inline element
+
+<div>The following span is an <span class="highlight">inline element</span>;
+its background has been colored to display both the beginning and end of
+the inline element's influence.</div>
+
+-> Output:
+The following span is an inline element; its background has been colored to display both the beginning and end of the inline element's influence.
+----------------------------------------------------------------------------------------------------------------------------------------
+2) Block level element
+for ex <p>
+<div>The following paragraph is a <p class="highlight">block-level element;</p>
+its background has been colored to display both the beginning and end of
+the block-level element's influence.</div>
+
+Output:
+The following paragraph is a
+block-level element;
+
+its background has been colored to display both the beginning and end of the block-level element's influence.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Q) Why use block elements?
+Ans
+Cannot change width height of inline elements. Can change width height of block
+
+Q) drawback of block elemet?
+Ans
+But block element doesnt let any other element sit on same line
+
+
+Q) How to Change display property of  block element & make it sit on same line //display: inline
+Ans
+//This will make paragraph inline element,  and allows to sit next to each other on same line
+p{
+  background-color: red;
+  width: 100px;  
+  display: inline;
+}
+
+Q) How to change display property of inline element? //display : block
+span{
+display: block;
+background-color:blue;
+width: 100px;
+}
+//Doesnt let sit on same line
+
+Q) How to get best of both worlds? Use display : inline-block property
+
+p{
+background-color: red;
+width: 100px;
+display: inline-block
+}
+______________________________________________________________________________
+//We treat images as inline-block elements  //can set width and can sit on same line
+
+
+Q) How to make element disappear?s
+Method 1				//display: None Property
+					   display: none;
+<p class= second-p> World </p>
+.second-p{
+display: none;
+}
+	//World paragraph wont be visible
+	//Other Elements will ignore it
+
+Method 2 :				 //Another way to make element disappear? visbility property
+					//visibility: hidden;
+//element still keeps original position just not visible.
+All elements will flow around it
+
+
+Ex1) Underline only Pro part of Programmer ? Use inline element Span, Give span class name = pro , style this class
+		    <p>Programmer</p>
+		    <p>A <span class="pro">Pro</span> grammer</p>
+
+We want to underline only pro
+
+1) Split paragraph into 3 paragraphs , give class, and style differently using tet-decoration: underline
+
+2) Why Span?
+Span is an inline display element not a block display element
+Inline display element only takes as much space as it needs to in height and width
+//The box around span part : pro will be only as long  and wide as pro
+//Basically enter Pro in a span class named as pro
+      <p>A <span class="pro">Pro</span> grammer</p>
+//Style this class
+
+
+//Pro(underlined) and grammer will both show next to each other
+Why? because inline elements
+Inline elements do not block other elements from occuring on same line
+
+
+What are inline elements?
+
+Ex of inline elements?
+
+Spans <span>
+Images <img>
+Anchors <a>
+
+
+Inline elements will show next to each other
+
+Why use block elements?
+Cannot change width height of inline elements
+
+But block element doesnt let any other element sit on same line
+Change display property of  block element
+
+
+How to change display property of block element:?
+//This will make paragraph inline element,  and allows to sit next to each other on same line
+p{
+  background-color: red;
+  width: 100px;  
+  display: inline;
+}
+
+How to change display property of inline element?
+span{
+display: block;
+background-color:blue;
+width: 100px;
+}
+//Doesnt let sit on same line
+
+
+//What if we want to sit on same line and set width
+inline-block : bes tof both worlds
+
+p{
+background-color: red;
+width: 100px;
+display: inline-block
+}
+
+//We treat images as inline-block elements
+
+
+//Get rid of element: None Property
+
+<p class= second-p> World </p>
+.second-p{
+display: none;
+}
+//World paragraph wont be visible
+//Other Elements will ignore it
+
+//Another way to make element disappear? visbility property
+visibility: hidden;
+//element still keeps original position just not visible.
+All elements will flow around it

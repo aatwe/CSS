@@ -1,0 +1,20 @@
+Using google fonts 
+
+What if you realllyy want everyone to see the same viewing experience?
+We will embed instead of presuming that people have it
+Font embedding:
+  fonts.google.com -> free -> embed in website (select style)
+ 	Articles on which font goes with which
+
+
+After selecting -> Copy link -> Paste in index.html
+
+If user does not have them installed -> browser takes them to location and grab fonts
+
+
+Use these fonts in styles.css, default for backup
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}

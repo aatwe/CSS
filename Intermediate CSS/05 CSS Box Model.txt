@@ -1,0 +1,45 @@
+we know every single html element = treated as box by CSS
+By styling box: can determine how elements can be laid out
+
+
+How to view box model?
+Everytime we inspect an html element
+can check box model as below, can test adding padding etc in this box model
+
+
+img{ width: 100%;}
+//What happens?
+Width of the box scales to fill entire width of screen
+
+
+
+Box Model:
+A Div we have given background color
+It has : height + width 300px
+
+What can we specify for an element?
+Width + Height + Border + Paddings + margin
+
+Changing height to 600 px
+Div expands vertically pushing down any  div or elements that are not inside this current container
+Do same for width
+
+
+How to specify these values? static pixels or % is of viewport
+What is viewport? screen that we are viewing the website on? 
+Laptop/Mobile/Ipad screen
+
+How to specify border? Solid
+note height and width dont include border 
+
+{border-width: 0px 10px 20px 30px;}
+Clockwise dimensions
+
+
+Padding? scroll below in styles tab -> double click place o enter number -
+Little space bw text and border
+padding pads content, not the bg image and bg colorx
+
+Margin?
+Buffer zone for an element bw 2 potential elements(each has margin)
+

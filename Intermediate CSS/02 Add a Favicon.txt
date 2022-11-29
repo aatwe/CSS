@@ -1,0 +1,24 @@
+Q) What is favicon? favourites icon displayed at top of web page
+
+Earlier favicon was displayed when people bookmarked the page
+Web dev tracked this
+
+Now browsers showed favicon for all website	
+
+
+Q) How to create favicon?
+favicon.cc
+
+
+Make and download your favicon in .ico format
+Can see the favicon in project navigator
+
+
+Q) How to add favicon to index.html?
+Note here relationship is not style sheet it is icon
+
+<<link rel="icon" type="text/css" href="favicon.ico">
+
+
+If favicon doesnt work?
+	<link rel= "favicon" href="favicon.ico?v=2">

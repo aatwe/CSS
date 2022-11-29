@@ -1,0 +1,10 @@
+What is text wrap in css?  //long words break and wrap into next line
+div {
+  word-wrap: break-word;
+}
+
+
+//makes sure left margin is clear and not wrapped
+.code-skill-description{
+clear: left;	
+}

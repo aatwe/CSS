@@ -1,0 +1,102 @@
+Even without CSS HTML elements have predefined rules for how displayed on webpage
+
+So even if we have no CSS -> how webpage should be displayed	
+
+Rules:
+_________________________________________________________________________________________________________________
+1) Content is everything
+ 	Inline element take as much width & heaight as content in it.
+	Block element: width even though width 100% , height still determined by content
+    Content is first thing that determines how large small things get displayed
+     Despite CSS
+
+2) Order of elements from Code
+   for ex
+    <img>
+    <h1> </h1>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+3)CHildren sit on top of parents on stack //Z Axis
+<div>
+ <h1>A <span>Pro </span> grammer</h1>	//Default rules for 
+ </div>
+//h1 wont be visible if div was infront of h1 -> solution? use position : relative
+
+4) CSS Position Property
+   a) Static      : What is static? go along with html rules and keep to default html flow
+   b) Relative  : Relative positioning : Positions element relative to how it would have been positioned
+	    had it been static
+	..coordinate properties: top, bottom, left, right
+	//without coordinate property position: relative does nothing
+	//Does it shift/affect other elements? No
+	    img {
+		position: relative
+		left:30px;		//image is pushed 30 px from left towards right of previous position
+				//left means margin from left	
+}
+   c) Absolute
+	//Affects flow of html	
+     div{
+        position: relative
+}
+   img{
+        position: absolute
+        right: 30px;	//Image shifts to the right by 30px
+}		//Image is relative to parent element
+ 
+  d) Fixed :
+	position: fixed
+	As we scroll through website, position of element is fixed despite not scrolling
+	//used in nav bar/ side bar
+
+___________________________________________________________________________________________________________________
+
+Ex.
+1) Given: parent container w 4 boxes
+//index.html
+<div class=”parent”>
+ <div class=”box” id=”one”>One</div>
+ <div class=”box” id=”two”>Two</div>
+ <div class=”box” id=”three”>Three</div>
+ <div class=”box” id=”four”>Four</div>
+</div>
+
+//styles.css
+.parent {
+ border: 2px black dotted;		//if not specified, by default position : static
+ display: inline-block;
+}
+.box {
+ display: inline-block;		//if not specified, by default position : static	
+ background: red;
+ width: 100px;
+ height: 100px;
+}
+#two {
+  background: green;		//if not specified, by default position : static
+}
+
+
+-> Relative Position
+
+ 2a) move greenbox / #2 -> can move with top/left/right/bottom properties but only relative to current position
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: green;
+  position: relative;
+}
+
+-> absolute Position     ->  can move with top/left/right/bottom properties but only  relative to parent
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: green;
+  position: absolute;
+}	
+
+-> static Position 	-> cannot move with top/left/right/bottom

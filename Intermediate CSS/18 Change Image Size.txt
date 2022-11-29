@@ -1,0 +1,25 @@
+They are scaled down based on the width of parent i.e skills-row
+
+
+
+.sap{
+  width: 25%;
+}
+.WebD{
+  width: 25%;
+  height="160";
+  style="border-radius: 50%" ;
+}
+.guitar{
+  width: 25%;
+   height="130" style="border-radius: 50%">
+}
+
+_________________________________________________________
+Quarter widtrh of skill row which is 50% width of entire page
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}

@@ -1,0 +1,21 @@
+h1 font size = 90px
+What if someone changes these font styles -> Preferences -> font size -> small
+
+
+What is 
+font size = 2en   //Phonetic pronounciation of letter m
+We know  <en></en> tag to italicize
+
+But 1 em = width of Capital letter M
+1 EM = 16 px
+
+World website: em vss % vs px
+
+ems and % are added to parent's
+However px are not overrided and added from parent
+
+
+How to avoid this? rem : root em
+5.62rem ignores parent settings and sets to 5.62 rem
+//rem is less likely to go wrong
+1 rem = 16px

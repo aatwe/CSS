@@ -1,0 +1,25 @@
+//Make body little more black
+body {
+color: #40514E
+}
+
+margin: 100px 0;
+//means 100 for top and bottom and 0 for left and right
+
+
+//Add line height to paragraph level CSS rule so that every one has it
+
+
+//Add a border
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+//Contact Message:
+.contact-message{
+  width: 40%;	//Doing this will make paragraph go left
+margin: 40px auto 60px; //top side bottom
+}

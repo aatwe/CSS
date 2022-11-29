@@ -1,0 +1,81 @@
+When designing website
+
+How to choose fonts to add CSS?
+
+1) Figure out color pallete
+2) Font scheme
+
+How to add font in CSS? font-family
+
+2 Major font families:
+1) Serif : Serif is a feet at edges of fonts like in roman
+
+2) Sans Serif : no feet at edges
+
+
+body{
+font-family: 1) cursive 	: low readability, handwritten
+	    2) fantasy	: Avatar font
+ 	    3) inherit	
+ 	    4) monospace	: Each character takes same width //Coding //easy to read
+ 	    5) sans-serif	: normal website	//By default Arial
+	    6) serif 	: normal website	//By default we have serif //Times default
+}
+
+How to add sans-serif? (Use comma)
+font-family: verdana, sans-serif
+
+What if browser does  not have this font? 
+Default to sans serif font installed on system
+
+What if other people's browser changes this fonts look and feel?
+Web safe fonts: Most OS render it correctly , render correctly high chance
+		but no font is 100% websafe
+	cssfonts..com -> % users installed
+	Arial most people have
+	Some fonts have difference in Windows + Max OS
+	Helvetica is apple specific : 7% windows
+
+Can write in availability priority
+font family: "Helvetica Neue", Helvetica,Arial,Sans-Serif				//note font selection is done 1 char a time
+
+What does syntax mean?
+/* A font family name and a generic family name */
+font-family: "Gill Sans Extrabold", sans-serif;
+
+
+How to use multiple font families?
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Regular.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-SemiBold.woff) format('woff');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Italic.woff) format('woff');
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Bold.woff) format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-BoldItalic.woff) format('woff');
+  font-style: italic;
+  font-weight: 700;
+}
+
+body {
+ font-family: Roboto;
+}

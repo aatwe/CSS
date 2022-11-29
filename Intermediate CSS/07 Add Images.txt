@@ -1,0 +1,23 @@
+Create new folder in CSS-My	Site : images
+
+Add in top container:
+
+
+<img src="images/cloud.png" alt="cloud-img">
+<img src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+
+
+But these are not alligned
+Cloud and mountain are in 1 line below
+
+
+Why?
+CSS Display properties
+
+Check the box around cloud/ mountain/ cloud2 / h1
+clount, mountain are only as long as the image
+
+But box around h1 and paragraph : are as long as page width
+
+Some elements are block display : h1 / p / ul : take whole width of screen

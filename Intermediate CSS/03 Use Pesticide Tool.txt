@@ -1,0 +1,3 @@
+Shows all boxes on screen
+
+We know each html element is a box

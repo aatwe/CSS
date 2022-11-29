@@ -1,0 +1,48 @@
+Div = content division element, allows to split/divide content into separate containers/boxes
+Helps us to affect  layout of each box separately
+Allows divide content so we can structure each div separately
+
+Why are we talking about html element in this css module?
+Div dont do anything unless we use css with it
+
+Top part has thicker of line
+Inspect	:
+
+1) Top part has thicker line	 
+2) Select div -> 1424 x 0
+
+
+Lets specify css for the div in chrome developer tools
+
+_____________________________________________________________________
+Experiment in div element:
+
+background-color: blue;
+height: 100px;
+
+The div is only there to structure and divide content
+
+
+In our website the top part of the website: the title, subtutle and image are grouped
+We can group using a div
+
+
+1) Try moving heading and paragraph inside div
+
+2) Give permenent background color to div
+   style.css
+div{
+  background-color: #E4F9F5
+}
+Where to find colors? Color hunt.com
+Why div does noot extend all the way till left and top?Browser inserts defautl css to style things
+Check body element -> has margin 8 px from all edges
+can change this body element  margin and observe change
+
+Can we remove top margin also by changing div? No
+Why? Check default rules for h1, can see margin in h1, have to change this
+
+
+When we make change in margin for body
+Everytime we reduce it to 0, code is added
+margin-top and margin-bottom are edited

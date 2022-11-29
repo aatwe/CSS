@@ -1,0 +1,25 @@
+Our footer has pretty large margin if we inspect
+
+Our footer has large margin 16 from top 16 from bottom //automatically comes from installsheet
+Get rid of that padding
+
+
+.bottomcontainer{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+links are anchor tags which are underlined by default
+remove underline
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+/Can also add hover color
+a:hover {
+  color: #EAF6F6
+}
+
+//Copyright class : copyright
